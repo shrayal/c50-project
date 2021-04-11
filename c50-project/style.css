@@ -1,0 +1,42 @@
+h1 {
+    color: rgb(42, 165, 58);
+}
+
+
+.header{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body{
+    background-color: whitesmoke;
+}
+.grid{
+    background-color: chartreuse;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid img{
+    border:5px solid black;
+    border-radius: 50px;
+}
+
+.footer{
+
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+    color:coral
+}
